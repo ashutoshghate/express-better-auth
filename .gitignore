@@ -1,0 +1,29 @@
+# -------------------------
+# Node.js/TypeScript Setup
+# -------------------------
+/node_modules
+/dist
+.env
+.env.local
+# ... (rest of standard exclusions) ...
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# -------------------------
+# Drizzle ORM
+# -------------------------
+# The files inside 'drizzle/' MUST be committed.
+# Only exclude temporary or debug files if Drizzle creates them later.
+# For now, ensure you DO NOT list /drizzle so the migration files are tracked.
+
+# If Drizzle creates temporary state files, exclude them here:
+# /drizzle/meta/
+
+# -------------------------
+# IDE and OS Specific
+# -------------------------
+.DS_Store
