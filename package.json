@@ -21,7 +21,7 @@
   "packageManager": "pnpm@10.13.1",
   "dependencies": {
     "@better-auth/passkey": "^1.4.2",
-    "better-auth": "^1.4.2",
+    "better-auth": "^1.4.5",
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "drizzle": "^1.4.0",
